@@ -1,0 +1,42 @@
+Sample data from database:
+
+
+ID: 2087
+German: ab
+Persian (raw): از
+Persian (bytes): b'\xd8\xa7\xd8\xb2'
+Example: Ab morgen muss ich arbeiten.
+Example Persian: از فردا باید کار کنم.
+--------------------------------------------------------------------------------
+
+ID: 2088
+German: aber
+Persian (raw): اما
+Persian (bytes): b'\xd8\xa7\xd9\x85\xd8\xa7'
+Example: Ich bin oft im Büro, aber nur für wenige Stunden.
+Example Persian: من اغلب در دفتر هستم، اما فقط برای چند ساعت.
+--------------------------------------------------------------------------------
+
+ID: 2089
+German: abfahren
+Persian (raw): حرکت کردن
+Persian (bytes): b'\xd8\xad\xd8\xb1\xda\xa9\xd8\xaa \xda\xa9\xd8\xb1\xd8\xaf\xd9\x86'
+Example: Wir fahren um zwölf Uhr ab.
+Example Persian: ما ساعت دوازده حرکت می کنیم.
+--------------------------------------------------------------------------------
+
+ID: 2090
+German: die Abfahrt
+Persian (raw): حرکت
+Persian (bytes): b'\xd8\xad\xd8\xb1\xda\xa9\xd8\xaa'
+Example: Vor der Abfahrt rufe ich an.
+Example Persian: قبل از حرکت زنگ می زنم.
+--------------------------------------------------------------------------------
+
+ID: 2091
+German: abgeben
+Persian (raw): تحویل دادن
+Persian (bytes): b'\xd8\xaa\xd8\xad\xd9\x88\xdb\x8c\xd9\x84 \xd8\xaf\xd8\xa7\xd8\xaf\xd9\x86'
+Example: Ich muss meine Schlüssel abgeben.
+Example Persian: باید کلیدهایم را تحویل بدهم.
+--------------------------------------------------------------------------------

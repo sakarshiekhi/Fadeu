@@ -1,0 +1,159 @@
+{
+    "yourActivity": "فعالیت شما",
+    "a1Level": "سطح A1",
+    "a2Level": "سطح A2",
+    "b1Level": "سطح B1",
+    "refreshActivityData": "به‌روزرسانی داده‌های فعالیت",
+    "yourProgressAtAGlance": "پیشرفت شما در یک نگاه",
+    "totalStudyTime": "مجموع زمان مطالعه",
+    "totalStudyTimeDescription": "مجموع زمان صرف شده برای تماشای ویدیوها و یادگیری.",
+    "wordsSearched": "کلمات جستجو شده",
+    "wordsSearchedDescription": "تعداد کلمات منحصر به فردی که جستجو کرده‌اید.",
+    "wordsSaved": "کلمات ذخیره شده",
+    "wordsSavedDescription": "تعداد کلماتی که برای مرور بعدی ذخیره کرده‌اید.",
+    "flashcardsViewedTotal": "فلش‌کارت‌های مشاهده شده (کل)",
+    "flashcardsViewedTotalDescription": "مجموع تعداد فلش‌کارت‌هایی که مرور کرده‌اید.",
+    "flashcardsViewedByLevel": "فلش‌کارت‌های مشاهده شده بر اساس سطح",
+    "longestDailyStreak": "طولانی‌ترین روند روزانه",
+    "longestDailyStreakDescription": "رکورد شما برای روزهای متوالی استفاده از برنامه.",
+    "lastUsed": "آخرین استفاده: {date}",
+    "@lastUsed": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "comparison": "مقایسه",
+    "towardsGoal": "{percent}% تا رسیدن به هدف",
+    "@towardsGoal": {
+        "placeholders": {
+            "percent": {
+                "type": "int"
+            }
+        }
+    },
+    "errorInitializingData": "خطا در بارگذاری اولیه داده‌های فعالیت کاربر. لطفاً برنامه را مجدداً راه‌اندازی کنید.",
+    "notAvailable": "در دسترس نیست",
+    "flashcards": "فلش‌کارت‌ها",
+    "yourMainActivities": "فعالیت‌های اصلی شما",
+    "searched": "جستجو شده",
+    "saved": "ذخیره شده",
+    "viewed": "مشاهده شده",
+    "minutes": "دقیقه",
+    "words": "کلمه",
+    "days": "روز",
+    "noTranslationAvailable": "ترجمه‌ای موجود نیست.",
+    "wordReminders": "یادآور کلمات",
+    "wordRemindersDescription": "کانالی برای اعلان‌های دوره‌ای یادگیری کلمات.",
+    "failedToLoadTranslations": "بارگیری ترجمه‌ها از سرور ناموفق بود: {error}",
+    "@failedToLoadTranslations": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "failedToConnectToServer": "اتصال به سرور شما ناموفق بود.",
+    "signupSuccessful": "ثبت‌نام با موفقیت انجام شد!",
+    "emailError": "خطای ایمیل: {errors}",
+    "@emailError": {
+        "placeholders": {
+            "errors": {
+                "type": "String"
+            }
+        }
+    },
+    "passwordError": "خطای رمز عبور: {errors}",
+    "@passwordError": {
+        "placeholders": {
+            "errors": {
+                "type": "String"
+            }
+        }
+    },
+    "signupFailed": "ثبت‌نام ناموفق بود",
+    "couldNotConnectToServer": "خطا: امکان اتصال به سرور وجود ندارد",
+    "loginSuccessful": "ورود با موفقیت انجام شد!",
+    "loginFailed": "ورود ناموفق بود: {reason}",
+    "@loginFailed": {
+        "placeholders": {
+            "reason": {
+                "type": "String"
+            }
+        }
+    },
+    "passwordResetEmailSent": "ایمیل بازنشانی رمز عبور با موفقیت ارسال شد!",
+    "failedToSendResetEmail": "ارسال ایمیل بازنشانی ناموفق بود",
+    "couldNotConnectToServerCheckInternet": "خطا: امکان اتصال به سرور وجود ندارد. لطفاً اتصال اینترنت خود را بررسی کنید.",
+    "verificationFailed": "تأیید ناموفق بود",
+    "passwordResetSuccessful": "بازنشانی رمز عبور با موفقیت انجام شد!",
+    "failedToResetPassword": "بازنشانی رمز عبور ناموفق بود",
+    "fromYourDictionary": "از دیکشنری شما",
+    "onlineResults": "نتایج آنلاین",
+    "word": "کلمه",
+    "createAccountTitle": "حساب کاربری خود را بسازید",
+    "emailLabel": "ایمیل",
+    "emailRequiredError": "وارد کردن ایمیل الزامی است",
+    "invalidEmailError": "لطفاً یک آدرس ایمیل معتبر وارد کنید",
+    "passwordLabel": "رمز عبور",
+    "confirmPasswordLabel": "تکرار رمز عبور",
+    "passwordsDoNotMatchError": "رمزهای عبور یکسان نیستند",
+    "signUpButton": "ثبت‌نام",
+    "alreadyHaveAccount": "قبلاً حساب کاربری ساخته‌اید؟ وارد شوید",
+    "requiredFieldError": "این فیلد الزامی است",
+    "passwordLengthError": "رمز عبور باید حداقل ۸ کاراکتر باشد",
+    "appTitle": "فادئو",
+    "searchTooltip": "جستجو",
+    "flashcardsTab": "فلش‌کارت‌ها",
+    "savedTab": "ذخیره‌شده‌ها",
+    "settings": "تنظیمات",
+    "settingsTab": "تنظیمات",
+    "noWordsFoundForLevel": "هیچ کلمه‌ای برای این سطح یافت نشد",
+    "flashcardLevelAll": "همه سطوح",
+    "flashcardLevelA1": "A1",
+    "flashcardLevelA2": "A2",
+    "flashcardLevelB1":"B1",
+    "saveWordTooltip": "ذخیره کلمه در مجموعه شما",
+    "resetRequestFailed": "ارسال درخواست بازنشانی رمز عبور ناموفق بود",
+    "resetPasswordTitle": "بازنشانی رمز عبور",
+    "resetPasswordInstruction": "برای دریافت لینک بازنشانی، ایمیل خود را وارد کنید",
+    "emailHint": "ایمیل",
+    "weWillSendYouTheCode": "کد تأیید برای شما ارسال خواهد شد",
+    "resetEmailSentConfirmation": "ایمیل بازنشانی ارسال شد. لطفاً صندوق ورودی خود را بررسی کنید.",
+    "unknownError": "یک خطای ناشناخته رخ داد",
+    "connectionError": "خطای اتصال. لطفاً اینترنت خود را بررسی کنید.",
+    "emailValidationError": "لطفاً یک آدرس ایمیل معتبر وارد کنید",
+    "passwordHint": "رمز عبور",
+    "passwordValidationError": "رمز عبور باید حداقل ۶ کاراکتر باشد",
+    "loginButton": "ورود",
+    "forgotPasswordButton": "رمز عبور را فراموش کرده‌اید؟",
+    "skipButton": "رد شدن",
+    "setNewPasswordTitle": "تنظیم رمز عبور جدید",
+    "setNewPasswordInstruction": "یک رمز عبور جدید برای حساب خود ایجاد کنید",
+    "newPasswordHint": "رمز عبور جدید",
+    "confirmPasswordHint": "تکرار رمز عبور جدید",
+    "resetPasswordButton": "بازنشانی رمز عبور",
+    "resetPasswordError": "خطا در بازنشانی رمز عبور",
+    "verifyCodeTitle": "تأیید کد",
+    "enterCodeInstruction": "کد تأیید ارسال شده به ایمیل خود را وارد کنید",
+    "codeHint": "کد تأیید",
+    "verifyButton": "تأیید",
+    "language": "زبان",
+    "theme": "پوسته",
+    "userActivity": "فعالیت شما",
+    "notifications": "اعلان‌ها",
+    "signUp": "ثبت‌نام",
+    "login": "ورود",
+    "forgottenPassword": "فراموشی رمز عبور",
+    "englishMeaning": "معنی انگلیسی",
+    "article": "حرف تعریف (آرتیکل)",
+    "partOfSpeech": "نوع کلمه (نقش دستوری)",
+    "plural": "جمع",
+    "cases": "حالت‌ها (گرامری)",
+    "tenses": "زمان‌ها (فعل)",
+    "level": "سطح",
+    "exampleGerman": "مثال (آلمانی)",
+    "exampleEnglish": "مثال (انگلیسی)",
+    "examplePersian": "مثال (فارسی)"
+}

@@ -1,0 +1,46 @@
+Sample data from SQLite database:
+
+German: das Haus
+Persian (raw): خانه
+Error getting bytes: 'latin-1' codec can't encode characters in position 0-3: ordinal not in range(256)
+Failed to decode with utf-8: 'latin-1' codec can't encode characters in position 0-3: ordinal not in range(256)
+Failed to decode with utf-16: 'latin-1' codec can't encode characters in position 0-3: ordinal not in range(256)
+Failed to decode with cp1256: 'latin-1' codec can't encode characters in position 0-3: ordinal not in range(256)
+Failed to decode with latin1: 'latin-1' codec can't encode characters in position 0-3: ordinal not in range(256)
+--------------------------------------------------
+
+German: die Hausaufgabe
+Persian (raw): تکلیف خانه
+Error getting bytes: 'latin-1' codec can't encode characters in position 0-4: ordinal not in range(256)
+Failed to decode with utf-8: 'latin-1' codec can't encode characters in position 0-4: ordinal not in range(256)
+Failed to decode with utf-16: 'latin-1' codec can't encode characters in position 0-4: ordinal not in range(256)
+Failed to decode with cp1256: 'latin-1' codec can't encode characters in position 0-4: ordinal not in range(256)
+Failed to decode with latin1: 'latin-1' codec can't encode characters in position 0-4: ordinal not in range(256)
+--------------------------------------------------
+
+German: die Hausfrau
+Persian (raw): خانه دار (زن)
+Error getting bytes: 'latin-1' codec can't encode characters in position 0-3: ordinal not in range(256)
+Failed to decode with utf-8: 'latin-1' codec can't encode characters in position 0-3: ordinal not in range(256)
+Failed to decode with utf-16: 'latin-1' codec can't encode characters in position 0-3: ordinal not in range(256)
+Failed to decode with cp1256: 'latin-1' codec can't encode characters in position 0-3: ordinal not in range(256)
+Failed to decode with latin1: 'latin-1' codec can't encode characters in position 0-3: ordinal not in range(256)
+--------------------------------------------------
+
+German: der Hausmann
+Persian (raw): خانه دار (مرد)
+Error getting bytes: 'latin-1' codec can't encode characters in position 0-3: ordinal not in range(256)
+Failed to decode with utf-8: 'latin-1' codec can't encode characters in position 0-3: ordinal not in range(256)
+Failed to decode with utf-16: 'latin-1' codec can't encode characters in position 0-3: ordinal not in range(256)
+Failed to decode with cp1256: 'latin-1' codec can't encode characters in position 0-3: ordinal not in range(256)
+Failed to decode with latin1: 'latin-1' codec can't encode characters in position 0-3: ordinal not in range(256)
+--------------------------------------------------
+
+German: der Haushalt
+Persian (raw): خانه داری
+Error getting bytes: 'latin-1' codec can't encode characters in position 0-3: ordinal not in range(256)
+Failed to decode with utf-8: 'latin-1' codec can't encode characters in position 0-3: ordinal not in range(256)
+Failed to decode with utf-16: 'latin-1' codec can't encode characters in position 0-3: ordinal not in range(256)
+Failed to decode with cp1256: 'latin-1' codec can't encode characters in position 0-3: ordinal not in range(256)
+Failed to decode with latin1: 'latin-1' codec can't encode characters in position 0-3: ordinal not in range(256)
+--------------------------------------------------
