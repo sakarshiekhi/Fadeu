@@ -155,5 +155,11 @@
     "level": "سطح",
     "exampleGerman": "مثال (آلمانی)",
     "exampleEnglish": "مثال (انگلیسی)",
-    "examplePersian": "مثال (فارسی)"
+    "examplePersian": "مثال (فارسی)",
+
+    "logout": "خروج از حساب کاربری",
+    "logoutConfirmTitle": "تأیید خروج",
+    "logoutConfirmMessage": "آیا مطمئن هستید که می‌خواهید خارج شوید؟",
+    "cancel": "انصراف",
+    "loggedOutSuccessfully": "با موفقیت خارج شدید"
 }

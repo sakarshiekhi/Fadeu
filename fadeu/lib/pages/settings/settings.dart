@@ -6,6 +6,8 @@ import 'package:fadeu/pages/auth/forgetPassword.dart';
 import 'package:fadeu/pages/settings/user_activity.dart' show UserActivityPage;
 import 'package:fadeu/pages/settings/notification_settings_page.dart';
 import 'package:fadeu/l10n/app_localizations.dart';
+import 'package:fadeu/services/auth_service.dart'; // Import AuthService
+import 'package:fadeu/services/api_service.dart';   // Import ApiService
 
 class SettingsPage extends StatefulWidget {
   final bool isDarkMode;
@@ -131,6 +133,76 @@ class _SettingsPageState extends State<SettingsPage> {
                       builder: (context) =>
                           UserActivityPage(isDarkMode: widget.isDarkMode)),
                 );
+              },
+            ),
+          ),
+
+          // Logout Option
+          Card(
+            color: cardColor,
+            elevation: 4,
+            shape:
+                RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+            margin: const EdgeInsets.only(bottom: 12.0),
+            child: ListTile(
+              leading: Icon(Icons.logout, color: Colors.redAccent), // Changed icon color for emphasis
+              title: Text(
+                l10n.logout, // Assuming 'logout' is defined in your AppLocalizations
+                style: GoogleFonts.lato(fontSize: 18, color: Colors.redAccent), // Changed text color
+              ),
+              onTap: () async {
+                // Implement logout logic here
+                final authService = AuthService();
+                final apiService = ApiService(); // apiService might be used by authService.logout()
+
+                // Show confirmation dialog
+                final bool? confirmLogout = await showDialog<bool>(
+                  context: context,
+                  builder: (BuildContext context) {
+                    return AlertDialog(
+                      title: Text(l10n.logoutConfirmTitle), // Assuming 'logoutConfirmTitle'
+                      content: Text(l10n.logoutConfirmMessage), // Assuming 'logoutConfirmMessage'
+                      actions: <Widget>[
+                        TextButton(
+                          child: Text(l10n.cancel), // Assuming 'cancel'
+                          onPressed: () {
+                            Navigator.of(context).pop(false);
+                          },
+                        ),
+                        TextButton(
+                          child: Text(l10n.logout, style: TextStyle(color: Colors.redAccent)),
+                          onPressed: () {
+                            Navigator.of(context).pop(true);
+                          },
+                        ),
+                      ],
+                    );
+                  },
+                );
+
+                if (confirmLogout == true) {
+                  await authService.logout(); // Clears local token
+                  await apiService.logout(); // Notifies backend if implemented in ApiService or called by authService
+
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(
+                      content: Text(l10n.loggedOutSuccessfully), // Assuming 'loggedOutSuccessfully'
+                      backgroundColor: Colors.green,
+                    ),
+                  );
+                  // Navigate to Login page and remove all previous routes
+                  Navigator.of(context).pushAndRemoveUntil(
+                    MaterialPageRoute(
+                      builder: (context) => Login(
+                        isDarkMode: widget.isDarkMode,
+                        onThemeChanged: widget.onThemeChanged,
+                        onLanguageChanged: widget.onLanguageChanged,
+                        currentLocale: widget.currentLocale,
+                      ),
+                    ),
+                    (Route<dynamic> route) => false, // Remove all routes
+                  );
+                }
               },
             ),
           ),

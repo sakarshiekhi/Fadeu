@@ -28,12 +28,21 @@ class _UserActivityPageState extends State<UserActivityPage> {
   bool _isSyncing = false;
   bool _autoSyncEnabled = true;
   SharedPreferences? _prefs;
+  String? _userEmail; // Add state variable for user email
 
   @override
   void initState() {
     super.initState();
+    _loadUserEmail(); // Call method to load email
     _loadActivityData();
     _initializeActivityTracker();
+  }
+
+  Future<void> _loadUserEmail() async { // Method to load user email
+    _prefs ??= await SharedPreferences.getInstance();
+    setState(() {
+      _userEmail = _prefs?.getString('user_email');
+    });
   }
   
   void _loadActivityData() {
@@ -142,6 +151,21 @@ class _UserActivityPageState extends State<UserActivityPage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              // Display User Email
+              if (_userEmail != null)
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 16.0),
+                  child: Row(
+                    children: [
+                      Icon(Icons.person_outline, color: descriptionColor, size: 20),
+                      const SizedBox(width: 8),
+                      Text(
+                        _userEmail!,
+                        style: TextStyle(fontSize: 16, color: descriptionColor),
+                      ),
+                    ],
+                  ),
+                ),
               // Sync Settings Card
               Card(
                 elevation: 4,

@@ -157,5 +157,11 @@
     "level": "Level",
     "exampleGerman": "Example (German)",
     "exampleEnglish": "Example (English)",
-    "examplePersian": "Example (Persian)"
+    "examplePersian": "Example (Persian)",
+
+    "logout": "Logout",
+    "logoutConfirmTitle": "Confirm Logout",
+    "logoutConfirmMessage": "Are you sure you want to logout?",
+    "cancel": "Cancel",
+    "loggedOutSuccessfully": "Logged out successfully"
 }

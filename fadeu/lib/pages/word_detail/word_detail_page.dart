@@ -59,24 +59,33 @@ class _WordDetailViewState extends State<WordDetailView> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
-                        '${_word!.article ?? ''} ${_word!.germanWord ?? ''}'.trim(),
-                        style: Theme.of(context).textTheme.headlineMedium,
+                      Directionality(
+                        textDirection: TextDirection.ltr,
+                        child: Text(
+                          '${_word!.article ?? ''} ${_word!.germanWord ?? ''}'.trim(),
+                          style: Theme.of(context).textTheme.headlineMedium,
+                        ),
                       ),
                       if (_word!.englishWord?.isNotEmpty ?? false)
                         Padding(
                           padding: const EdgeInsets.only(top: 8.0),
-                          child: Text(
-                            _word!.englishWord!,
-                            style: Theme.of(context).textTheme.titleMedium,
+                          child: Directionality(
+                            textDirection: TextDirection.ltr,
+                            child: Text(
+                              _word!.englishWord!,
+                              style: Theme.of(context).textTheme.titleMedium,
+                            ),
                           ),
                         ),
                       if (_word!.persianWord?.isNotEmpty ?? false)
                         Padding(
                           padding: const EdgeInsets.only(top: 4.0),
-                          child: Text(
-                            _word!.persianWord!,
-                            style: Theme.of(context).textTheme.titleMedium,
+                          child: Directionality(
+                            textDirection: TextDirection.rtl,
+                            child: Text(
+                              _word!.persianWord!,
+                              style: Theme.of(context).textTheme.titleMedium,
+                            ),
                           ),
                         ),
                       if (_word!.example?.isNotEmpty ?? false) ...[
@@ -86,22 +95,31 @@ class _WordDetailViewState extends State<WordDetailView> {
                           'Example:',
                           style: Theme.of(context).textTheme.titleMedium,
                         ),
-                        Text(_word!.example!),
+                        Directionality(
+                          textDirection: TextDirection.ltr,
+                          child: Text(_word!.example!),
+                        ),
                       ],
                       if (_word!.exampleEnglish?.isNotEmpty ?? false)
                         Padding(
                           padding: const EdgeInsets.only(top: 4.0),
-                          child: Text(
-                            _word!.exampleEnglish!,
-                            style: const TextStyle(fontStyle: FontStyle.italic),
+                          child: Directionality(
+                            textDirection: TextDirection.ltr,
+                            child: Text(
+                              _word!.exampleEnglish!,
+                              style: const TextStyle(fontStyle: FontStyle.italic),
+                            ),
                           ),
                         ),
                       if (_word!.examplePersian?.isNotEmpty ?? false)
                         Padding(
                           padding: const EdgeInsets.only(top: 4.0, bottom: 8.0),
-                          child: Text(
-                            _word!.examplePersian!,
-                            style: const TextStyle(fontStyle: FontStyle.italic),
+                          child: Directionality(
+                            textDirection: TextDirection.rtl,
+                            child: Text(
+                              _word!.examplePersian!,
+                              style: const TextStyle(fontStyle: FontStyle.italic),
+                            ),
                           ),
                         ),
                       if (_word!.partOfSpeech?.isNotEmpty ?? false)
