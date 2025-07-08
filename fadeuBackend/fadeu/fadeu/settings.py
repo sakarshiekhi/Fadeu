@@ -11,12 +11,9 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
 from pathlib import Path
-<<<<<<< HEAD
 from datetime import timedelta
 import sys
 import os
-=======
->>>>>>> 69f1c219ac6270f866a57c3a1743b32fccc23d7d
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -33,7 +30,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']  # Only for development
 
-<<<<<<< HEAD
 # CORS settings
 CORS_ALLOW_ALL_ORIGINS = True  # Only for development
 CORS_ALLOW_CREDENTIALS = True
@@ -81,8 +77,6 @@ DATABASE_DEFAULT = 'default'
 
 # Custom user model
 AUTH_USER_MODEL = 'users.User'
-=======
->>>>>>> 69f1c219ac6270f866a57c3a1743b32fccc23d7d
 
 # Application definition
 
@@ -95,16 +89,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework_simplejwt',
-<<<<<<< HEAD
     'django_filters',
     'corsheaders',
     'users',  # Custom users app
     'accounts',  # Legacy accounts app
     'words',
-=======
-    'accounts',
-    'corsheaders', 
->>>>>>> 69f1c219ac6270f866a57c3a1743b32fccc23d7d
 ]
 
 MIDDLEWARE = [
@@ -137,23 +126,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'fadeu.wsgi.application'
 
-<<<<<<< HEAD
-=======
-
-# Database
-# https://docs.djangoproject.com/en/5.2/ref/settings/#databases
-DATABASES = {
-     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'fadeudb',
-        'USER': 'sakar',
-        'PASSWORD': 'A.a123456',
-        'HOST': 'localhost',
-        'PORT': '3306',
-    }
-}
-
->>>>>>> 69f1c219ac6270f866a57c3a1743b32fccc23d7d
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
 
@@ -188,7 +160,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
-<<<<<<< HEAD
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
@@ -200,16 +171,12 @@ MEDIA_ROOT = BASE_DIR / 'media'
 STATICFILES_DIRS = [
     BASE_DIR / 'static',
 ]
-=======
-STATIC_URL = 'static/'
->>>>>>> 69f1c219ac6270f866a57c3a1743b32fccc23d7d
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-<<<<<<< HEAD
 # REST Framework settings
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
@@ -306,31 +273,3 @@ print("\n=== Debug: DATABASES setting ===", file=sys.stderr)
 print(f"DATABASES: {DATABASES}", file=sys.stderr)
 print(f"DATABASE_ROUTERS: {DATABASE_ROUTERS}", file=sys.stderr)
 print("============================\n", file=sys.stderr)
-=======
-
-REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': (
-        'rest_framework_simplejwt.authentication.JWTAuthentication',
-    )
-}
-
-CORS_ALLOW_ALL_ORIGINS = True  # Only for development
-
-# Custom user model
-AUTH_USER_MODEL = 'accounts.User'
-
-# Email settings for development
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-DEFAULT_FROM_EMAIL = 'noreply@fadeuapp.com'
-PASSWORD_RESET_TIMEOUT = 3600
-# For development/testing: shows email in terminal\
-# For real email sending (use Gmail SMTP as an example)
-# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-# EMAIL_HOST = 'smtp.gmail.com'
-# EMAIL_PORT = 587
-# EMAIL_USE_TLS = True
-# EMAIL_HOST_USER = 'your_email@gmail.com'
-# EMAIL_HOST_PASSWORD = 'your_app_password'
-CORS_ALLOW_ALL_ORIGINS = True  # Only for development
-ALLOWED_HOSTS = ['*']  # Only for development
->>>>>>> 69f1c219ac6270f866a57c3a1743b32fccc23d7d

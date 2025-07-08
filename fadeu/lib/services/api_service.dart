@@ -451,7 +451,7 @@ class ApiService {
         return false;
       }
       
-      final url = '$baseUrl/api/sync-activity/';
+      final url = '$baseUrl/api/accounts/sync-activity/'; // Corrected endpoint
       print('🌐 [API] Sending request to: $url');
       
       final payload = {
