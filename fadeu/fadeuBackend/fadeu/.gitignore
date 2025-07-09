@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+
+# Virtualenv
+env/
+venv/
+ENV/
+*.env
+
+# IDEs
+.vscode/
+.idea/
+
+# Django
+*.sqlite3
+db.sqlite3
+/media/
+staticfiles/
+*.log
+
+# Data dumps
+*.bz2
+*.gz
+*.jsonl
+*.xml
+
+# OS
+.DS_Store
+Thumbs.db

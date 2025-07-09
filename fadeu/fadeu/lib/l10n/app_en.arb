@@ -1,0 +1,218 @@
+{
+    "yourActivity": "Your Activity",
+    "a1Level": "A1 Level",
+    "a2Level": "A2 Level",
+    "b1Level": "B1 Level",
+    "refreshActivityData": "Refresh activity data",
+    "yourProgressAtAGlance": "Your Progress at a Glance",
+    "totalStudyTime": "Total Study Time",
+    "totalStudyTimeDescription": "Total time spent watching videos and learning.",
+    "wordsSearched": "Words Searched",
+    "wordsSearchedDescription": "Number of unique words you have looked up.",
+    "wordsSaved": "Words Saved",
+    "wordsSavedDescription": "Number of words you have saved for later review.",
+    "flashcardsViewedTotal": "Flashcards Viewed (Total)",
+    "flashcardsViewedTotalDescription": "Total number of flashcards you have reviewed.",
+    "flashcardsViewedByLevel": "Flashcards Viewed by Level",
+    "longestDailyStreak": "Longest Daily Streak",
+    "longestDailyStreakDescription": "Your record for consecutive days of app usage.",
+    "lastUsed": "Last used: {date}",
+    "@lastUsed": {
+        "placeholders": {
+            "date": {
+                "type": "String"
+            }
+        }
+    },
+    "comparison": "Comparison",
+    "towardsGoal": "{percent}% towards goal",
+    "@towardsGoal": {
+        "placeholders": {
+            "percent": {
+                "type": "int"
+            }
+        }
+    },
+    "errorInitializingData": "Error initializing user activity data. Please restart the app.",
+    "notAvailable": "N/A",
+    "flashcards": "flashcards",
+    "yourMainActivities": "Your Main Activities",
+    "searched": "Searched",
+    "saved": "Saved",
+    "viewed": "Viewed",
+    "minutes": "minutes",
+    "words": "words",
+    "days": "days",
+    "noTranslationAvailable": "No translation available.",
+    "refresh": "Refresh",
+    "wordReminders": "Word Reminders",
+    "wordRemindersDescription": "A channel for periodic word learning notifications.",
+    "failedToLoadTranslations": "Failed to load translations from server: {error}",
+    "@failedToLoadTranslations": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "failedToConnectToServer": "Failed to connect to your server.",
+    "signupSuccessful": "Signup successful!",
+    "emailError": "Email error: {errors}",
+    "@emailError": {
+        "placeholders": {
+            "errors": {
+                "type": "String"
+            }
+        }
+    },
+    "passwordError": "Password error: {errors}",
+    "@passwordError": {
+        "placeholders": {
+            "errors": {
+                "type": "String"
+            }
+        }
+    },
+    "signupFailed": "Signup failed",
+    "couldNotConnectToServer": "Error: Could not connect to server",
+    "loginSuccessful": "Login successful!",
+    "loginFailed": "Login failed: {reason}",
+    "@loginFailed": {
+        "placeholders": {
+            "reason": {
+                "type": "String"
+            }
+        }
+    },
+    "passwordResetEmailSent": "Password reset email sent successfully!",
+    "failedToSendResetEmail": "Failed to send reset email",
+    "couldNotConnectToServerCheckInternet": "Error: Could not connect to server. Please check your internet connection.",
+    "verificationFailed": "Verification failed",
+    "passwordResetSuccessful": "Password reset successful!",
+    "failedToResetPassword": "Failed to reset password",
+    "fromYourDictionary": "From Your Dictionary",
+    "onlineResults": "Online Results",
+    "word": "Word",
+    "createAccountTitle": "Create Your Account",
+    "emailLabel": "Email",
+    "emailRequiredError": "Email is required",
+    "invalidEmailError": "Please enter a valid email address",
+    "passwordLabel": "Password",
+    "confirmPasswordLabel": "Confirm Password",
+    "passwordsDoNotMatchError": "Passwords do not match",
+    "signUpButton": "Sign Up",
+    "alreadyHaveAccount": "Already have an account? Log In",
+    "requiredFieldError": "This field is required",
+    "passwordLengthError": "Password must be at least 8 characters long",
+    "appTitle": "Fadeu",
+    "searchTooltip": "Search",
+    "flashcardsTab": "Flashcards",
+    "savedTab": "Saved",
+    "settings": "Settings",
+    "settingsTab": "Settings",
+    "noWordsFoundForLevel": "No words found for this level",
+    "flashcardLevelAll": "All",
+    "flashcardLevelA1": "A1",
+    "flashcardLevelA2": "A2",
+    "flashcardLevelB1": "B1",
+    "saveWordTooltip": "Save word to your collection",
+    
+    "resetRequestFailed": "Failed to send reset password request",
+    "resetPasswordTitle": "Reset Password",
+    "resetPasswordInstruction": "Enter your email to receive a password reset link",
+    "emailHint": "Email",
+    "weWillSendYouTheCode": "We'll send you a verification code",
+    "resetEmailSentConfirmation": "Reset email sent. Please check your inbox.",
+    "unknownError": "An unknown error occurred",
+    "connectionError": "Connection error. Please check your internet connection.",
+    "emailValidationError": "Please enter a valid email address",
+    "passwordHint": "Password",
+    "passwordValidationError": "Password must be at least 6 characters",
+    "loginButton": "Log In",
+    "forgotPasswordButton": "Forgot Password?",
+    "skipButton": "Skip",
+    "setNewPasswordTitle": "Set New Password",
+    "setNewPasswordInstruction": "Create a new password for your account",
+    "newPasswordHint": "New Password",
+    "confirmPasswordHint": "Confirm New Password",
+    "resetPasswordButton": "Reset Password",
+    "resetPasswordError": "Error resetting password",
+    "verifyCodeTitle": "Verify Code",
+    "enterCodeInstruction": "Enter the verification code sent to your email",
+    "codeHint": "Verification Code",
+    "verifyButton": "Verify",
+    "language": "Language",
+    "theme": "Theme",
+    "userActivity": "Your Activity",
+    "notifications": "Notifications",
+    "signUp": "Sign Up",
+    "login": "Login",
+    "forgottenPassword": "Forgotten Password",
+    
+    "englishMeaning": "English Meaning",
+    "article": "Article",
+    "partOfSpeech": "Part of Speech",
+    "plural": "Plural",
+    "cases": "Cases",
+    "tenses": "Tenses",
+    "level": "Level",
+    "exampleGerman": "Example (German)",
+    "exampleEnglish": "Example (English)",
+    "examplePersian": "Example (Persian)",
+    
+    "searchHint": "Search for words...",
+    "noResults": "No results found",
+    "startTypingToSearch": "Start typing to search...",
+    "noSearchHistory": "Your search history will appear here.",
+    "recentSearches": "Recent Searches",
+    "clearRecentSearches": "Clear All",
+    "errorLoadingSearchResults": "Error loading search results",
+    "noTranslation": "No translation",
+    "wordDetailsError": "Error loading word details",
+    "tryAgain": "Try Again",
+    
+    "wordRemoved": "{word} removed from saved words",
+    "noSavedWords": "No saved words found.",
+    "pullToRefresh": "Pull down to refresh",
+    "refresh": "Refresh",
+    "clearAll": "Clear All",
+    "recentSearches": "Recent Searches",
+    "notificationSettings": "Notification Settings",
+    "enableLearningSessions": "Enable Learning Sessions",
+    "timeRange": "Time Range",
+    "to": "to",
+    "notificationInterval": "Notification Interval",
+    "minutes": "{count, plural, =1{minute} other{minutes}}",
+    "wordLevel": "Word Level",
+    "allLevels": "All Levels",
+    "saveSettings": "Save Settings",
+    "batteryOptimization": "Battery Optimization",
+    "disableBatteryOptimization": "Disable Battery Optimization",
+    "batteryOptimizationAlreadyDisabled": "Battery optimization is already disabled for this app.",
+    "learningSessionScheduled": "Learning session scheduled! You will get words every {interval}.",
+    "notificationsDisabled": "Notifications disabled.",
+    "improveNotificationDelivery": "Improve Notification Delivery",
+    "essentialForNotifications": "Essential for notifications to work correctly on some devices.",
+    "hour": "1 hour",
+    "hours": "hours",
+    "minute": "minute",
+    "minutes": "minutes",
+    "notificationSettings": "Notification Settings",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "frequency": "Frequency",
+    "wordLevel": "Word Level",
+    "enableLearningSessions": "Enable Learning Sessions",
+    "allLevels": "All Levels",
+    "levelA1": "Beginner (A1)",
+    "levelA2": "Elementary (A2)",
+    "levelB1": "Intermediate (B1)",
+    "improveNotificationDelivery": "Improve Notification Delivery",
+    "essentialForNotifications": "Essential for notifications to work correctly on some devices.",
+    "saveSettings": "Save Settings",
+    "clearAllConfirmation": "Clear All Saved Words?",
+    "clearAllDescription": "This will remove all your saved words. This action cannot be undone.",
+    "cancel": "Cancel",
+    "clearAll": "Clear All",
+    "allWordsCleared": "All saved words cleared"
+}

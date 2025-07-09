@@ -1,0 +1,75 @@
+# Database files
+dictionary.db
+fadeu/fadeu/assets/dictionary.db
+fadeu/fadeuBackend/fadeu/dictionary.db
+
+# Android/Flutter related
+**/android/
+**/ios/
+**/build/
+**/local.properties
+**/*.iml
+**/*.log
+**/.gradle/
+**/GeneratedPluginRegistrant.java
+**/gradle/
+**/gradlew
+**/gradlew.bat
+**/local.properties
+**/GeneratedPluginRegistrant.java
+**/flutter_*/**
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+
+# IntelliJ/Android Studio specific
+.idea/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+
+# VS Code specific
+.vscode/
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Local development settings
+local.properties
+
+# Flutter/Dart
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter_module
+.fvm/
+
+# Web
+.web_*
+
+# Test coverage
+coverage/
+
+# Packages
+.packages
+.pub-cache/
+.pub/
